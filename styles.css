@@ -1,0 +1,92 @@
+html {
+    font-family: 'Roberto', sans-serif;
+}
+
+body {
+    background-color: rgb(15, 1, 27);
+}
+
+main {
+    margin-top: 200px;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+}
+
+main .intro {
+    font-family: 'Reen Kufi' sans-serif;
+    font-size: 3.2em;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+main img {
+    /* width: 100px; */
+}
+
+main .tagline {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.linktree a {
+    text-decoration: none;
+}
+
+.linktree i{
+    font-size: 35px;
+    color: rgb(238, 225, 225);
+    margin: 15px;
+}
+
+.linktree i:hover {
+    font-size: 40px;
+    color: white;
+}
+
+
+/* Animation testing */
+/* @keyframes intro {
+    10% {
+      transform: rotate(110deg) scaleX(-1);
+    }
+    20% {
+      transform: rotate(130deg) scaleX(-1);
+    }
+    30% {
+      transform: rotate(110deg) scaleX(-1);
+    }
+    40% {
+      transform: rotate(130deg) scaleX(-1);
+    }
+  } */
+/* Animation testing done*/
+
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        /* margin-top: 20px; */
+    }
+    main .intro {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    main .tagline {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    .linktree i{
+        font-size: 25px;
+        color: white;
+        margin: 10px;
+    }
+  }
