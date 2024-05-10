@@ -1,2 +1,13 @@
 # Landing-Page
-This is a Landing page where you find all relevant link including social media handle like LinkedIn, Facebook, Twitter... and more.
+This is a Landing page where you find all relevant link. 
+
+I have the following link here:
+-   Github
+-   LinkedIn
+-   Facebook
+-   Twitter
+-   Instagram
+-   freeCodeCamp.
+
+
+
